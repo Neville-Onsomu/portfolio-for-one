@@ -13,7 +13,7 @@ export default function Education() {
   return (
     <section id="education" className="bg-slate-700">
         <div className="mx-auto">
-            <h2 className="text-center text-2xl">Education</h2>
+            <h2 className="text-center text-2xl font-semibold">Education</h2>
             <p className="mt-2 text-center">My Academic Journey and Affiliations</p>
 
             <div className="mt-12 grid gap-6 grid-cols-2 justify-items-center">
