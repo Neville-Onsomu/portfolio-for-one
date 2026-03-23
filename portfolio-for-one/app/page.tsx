@@ -1,11 +1,13 @@
 import NavBar from "./navbar";
 import Intro from "./intro";
+import Education from "./education";
 
 export default function Home() {
   return (
-    <div>
+    <div className="px-10 pb-4">
       <NavBar/>
       <Intro/>
+      <Education/>
     </div> 
   );
 }
