@@ -7,7 +7,7 @@ import Contacts from "./contacts";
 
 export default function Home() {
   return (
-    <div className="px-10 pb-4">
+    <div className="bg-gradient-to-b from-slate-500 from-10% to-slate-200 to-90% pb-4">
       <NavBar/>
       <Intro/>
       <Education/>
