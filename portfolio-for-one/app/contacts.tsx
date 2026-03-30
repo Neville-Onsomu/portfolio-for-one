@@ -35,7 +35,7 @@ export default function Contacts() {
                     href={contact.href}
                     target={contact.name !== "Email" ? "_blank" : undefined}
                     rel={contact.name !== "Email" ? "noopener noreferrer" : undefined}
-                    className="justify-items-center bg-slate-600 rounded-4xl p-4 w-full hover:scale-110 duration-300"
+                    className="justify-items-center bg-slate-600 rounded-4xl p-4 w-full hover:scale-110 active:scale-95 duration-300"
                     >
                         <p className="text-3xl font-bold">[ {contact.name} ]</p>
                         <p className="text-xl">{contact.handle}</p>
