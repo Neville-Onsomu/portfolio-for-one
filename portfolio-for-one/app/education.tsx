@@ -17,7 +17,7 @@ export default function Education() {
             <p className="mt-2 text-lg text-center">my academic journey and affiliations</p>
 
             <div className="mt-8 grid md:grid-cols-2 gap-6 justify-items-center">
-                <div className="bg-slate-900/50 w-[85%] rounded-4xl p-4 space-y-4">
+                <div className="bg-slate-900/50 w-[85%] rounded-4xl p-4 space-y-4 ">
                     <div className="flex flex-row items-center gap-4">
                         <h3 className="text-3xl font-bold">[ university ]</h3>
                     </div>
